@@ -5,6 +5,7 @@
     <nav style="margin-bottom: 30px">
       <router-link to="/">Home</router-link>
       <router-link to="/events">Events</router-link>
+      <router-link to="/fetchedEvents">FetchedEvents</router-link>
       <router-link to="/about">About</router-link>
     </nav>
   </header>
