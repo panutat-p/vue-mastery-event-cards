@@ -45,7 +45,7 @@ const events = ref([
     <CardItem
       v-for="event in events"
       v-bind:key="event.id"
-      v-bind:event-info="event"
+      v-bind:eventInfo="event"
     />
   </div>
 </template>

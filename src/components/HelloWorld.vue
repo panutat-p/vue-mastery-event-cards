@@ -1,10 +1,14 @@
 <script setup>
+import { ref } from 'vue';
+
 defineProps({
   msg: {
     type: String,
     required: true,
   },
 });
+
+// const msg = ref('this is not prop');
 </script>
 
 <template>

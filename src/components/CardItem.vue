@@ -20,8 +20,8 @@ const event = ref({
 
 <template>
   <div class="event-card">
-    <span>@ {{ event.time }} on {{ event.date }}</span>
-    <h4>{{ event.title }}</h4>
+    <span>@ {{ eventInfo.time }} on {{ eventInfo.date }}</span>
+    <h2>{{ eventInfo.title }}</h2>
   </div>
 </template>
 
@@ -35,7 +35,7 @@ const event = ref({
 }
 
 .event-card:hover {
-  transform: scale(1.01);
-  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  box-shadow: 0 3px 12px 0 rgba(60, 101, 46, 0.5);
 }
 </style>
